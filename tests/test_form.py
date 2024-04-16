@@ -5,7 +5,6 @@ from allure_commons.types import Severity
 
 @allure.tag('web')
 @allure.title('Successfully filled registration form')
-@allure.tag("web")
 @allure.severity(Severity.CRITICAL)
 @allure.label("owner", "checamaro")
 @allure.feature("Student registration form")

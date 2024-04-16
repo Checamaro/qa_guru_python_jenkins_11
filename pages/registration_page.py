@@ -1,8 +1,6 @@
 import os
-from datetime import datetime
 
-from selene import browser, have, command
-from pathlib import Path
+from selene import browser, have
 
 import data
 from data.users import User
